@@ -1,0 +1,31 @@
+{{css "/stylesheets/demo.css"}}
+{{script "/javascripts/demo.js"}}
+
+
+<br/>
+
+{{#Widget "module.demo"}}
+我是 Widget2
+
+{{prd list}}
+
+    {{#each list}}
+
+    <br/>
+    <br/>
+    name:{{name}} <br/>
+    age:{{age}} <br/>
+    color:{{color}} <br/>
+
+    {{/each}}
+
+
+{{/Widget}}
+
+
+
+<h1>{{title}}</h1>
+<h1>key: {{key}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{path}}

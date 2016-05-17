@@ -1,0 +1,39 @@
+{
+  "name": "websmock",
+  "version": "1.0.3",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "hbs": "~3.1.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "bower": "*",
+    "mockjs": "*",
+    "express-vhost": "*",
+    "commander": "2.7.1",
+    "mkdirp": "0.5.1",
+    "sorted-object": "1.0.0"
+  },
+  "description": "websmock",
+  "bin": {
+    "websmock": "./bin/websmock.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "web",
+    "mockjs",
+    "express",
+    "api",
+    "handlebars",
+    "vhost"
+
+  ],
+  "author": "df007df",
+  "license": "ISC"
+}
