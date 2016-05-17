@@ -2,6 +2,7 @@ webSmock
 
 `websmock` is built by giving express http server, you can set up multiple vhost simple configuration. `websmock` combines the `handlebars`, `mockjs`, widget. Let mock test data easier. If the back-end using the template engine `handlebars`, front and rear ends to achieve the perfect separation
 
+npm: https://www.npmjs.com/package/websmock
 
 ##demo
 
@@ -45,5 +46,6 @@ module.exports = config;
 `websmock --start or websmock -s`
 
 http://test.demo.com:3000
+
 http://test.demo1.com:3000
 
