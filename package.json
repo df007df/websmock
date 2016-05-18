@@ -1,9 +1,20 @@
 {
   "name": "websmock",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "private": false,
+  "author": {
+    "name": "df007df",
+    "email": "duanfeisj@gmail.com"
+  },
   "scripts": {
     "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/df007df/websmock"
+  },
+  "bugs": {
+    "url": "https://github.com/df007df/websmock/issues"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -14,13 +25,13 @@
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
     "bower": "*",
-    "mockjs": "*",
+    "mockjs": "~1.0.1",
     "express-vhost": "*",
     "commander": "2.7.1",
     "mkdirp": "0.5.1",
     "sorted-object": "1.0.0"
   },
-  "description": "websmock",
+  "description": "websmock is built by giving express http server, you can set up multiple vhost simple configuration. websmock combines the handlebars, mockjs, widget. Let mock test data easier. If the back-end using the template engine handlebars, front and rear ends to achieve the perfect separation",
   "bin": {
     "websmock": "./bin/websmock.js"
   },
@@ -34,6 +45,5 @@
     "vhost"
 
   ],
-  "author": "df007df",
   "license": "ISC"
 }
