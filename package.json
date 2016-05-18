@@ -1,6 +1,6 @@
 {
   "name": "websmock",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "author": {
     "name": "df007df",
@@ -31,7 +31,7 @@
     "mkdirp": "0.5.1",
     "sorted-object": "1.0.0"
   },
-  "description": "websmock is built by giving express http server, you can set up multiple vhost simple configuration. websmock combines the handlebars, mockjs, widget. Let mock test data easier. If the back-end using the template engine handlebars, front and rear ends to achieve the perfect separation",
+  "description": "websmock is built by giving express http server, you can set up multiple vhost simple configuration. websmock combines the handlebars, mockjs, widget. Let mock test data easier.",
   "bin": {
     "websmock": "./bin/websmock.js"
   },
